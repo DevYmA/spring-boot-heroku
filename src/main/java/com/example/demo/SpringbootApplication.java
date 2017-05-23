@@ -13,7 +13,7 @@ public class SpringbootApplication {
 		SpringApplication.run(SpringbootApplication.class, args);
 	}
 	
-	@RequestMapping("")
+	@RequestMapping("/home")
 	public String index(){
 		return  "index";
 	}
