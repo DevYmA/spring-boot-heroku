@@ -17,4 +17,5 @@ public class SpringbootApplication {
 	public String index(){
 		return  "index";
 	}	
+	
 }
