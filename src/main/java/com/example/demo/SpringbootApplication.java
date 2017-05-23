@@ -16,6 +16,5 @@ public class SpringbootApplication {
 	@RequestMapping("/home")
 	public String index(){
 		return  "index";
-	}
-	
+	}	
 }
